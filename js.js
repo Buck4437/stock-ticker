@@ -29,7 +29,7 @@ function generate(){
         }
       }
       else{
-        price = price + "  ◀▶"
+        price = price + "  ◄►"
         document.getElementById("price"+i).style = "color:gold"
       }
       document.getElementById("price"+i).innerHTML = price
