@@ -1,4 +1,4 @@
-var namelist = ["Antinology","Infinifection","Eternal Light","Galaxia","Duplicant","Dimensional Explorer","Techyon","Realistic","Celestar","ERCGDM","NRG+","Looty Box","Symbolic","Minisofa","IDEAL","Appange","Goggles","Interval","Newstar","HeavyPellet","Marsa","Zoology","Photoric","Jacfoz","Orism","EDIK","Fision","Gamma","Fractiled","Imnesia","Fermic","The Automizers"]
+var namelist = ["Antinology","Infinifection","Eternal Light","Galaxia","Duplicanti","Dimensional Explorer","Techyon","Realistic","Celestar","ERCGDM","NRG+","Looty Box","Symbolic","Minisofa","IDEAL","Appange","Goggles","Interval","Newstar","HeavyPellet","Marsa","Zoology","Photoric","Jacfoz","Orism","EDIK","Fision","Gamma","Fractiled","Imnesia","Fermic","The Automizers"]
 var price = 0
 //I am copying this from stackflow because i cannot code
 function shuffle(a) {
