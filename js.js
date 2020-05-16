@@ -39,7 +39,7 @@ generate()
 
 $(function () {
   $('.marquee').marquee({
-      speed: window.innerWidth/10
+      duration: 10000
   }).bind('finished', function(){
 	  generate()
 	})
