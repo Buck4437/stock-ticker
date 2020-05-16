@@ -2,20 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Stock Ticker</title>
+    <link rel="stylesheet" type="text/css" href="ticker.css">
   </head>
   <body>
-    <button onclick="generate()">Generate News</button>
-    <button id="somename" onclick="autogeneratenews()">Auto-Generate News: Off</button>
-    <br>
-    <br>
-    <span class="company" id="company1"></span>
-    <span id="price1"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span class="company" id="company2"></span>
-    <span id="price2"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span class="company" id="company3"></span>
-    <span id="price3"></span>
-    <br>
+    <div class="tcontainer">
+      <div class="ticker-wrap">
+        <div class="ticker-move">
+          <div class="ticker-item">
+            <span class="company" id="company1"></span>
+            <span id="price1"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <span class="company" id="company2"></span>
+            <span id="price2"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+            <span class="company" id="company3"></span>
+            <span id="price3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
     <br>
     <a href="https://github.com/Buck4437/stock-ticker">Check the code here</a>
   </body>
@@ -25,4 +29,5 @@
     }
   </style>
   <script src="js.js"></script>
+  <script src="jquery-3.4.1.js"></script>
 </html>

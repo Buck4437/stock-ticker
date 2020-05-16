@@ -1,0 +1,46 @@
+*{
+  font-size: 25px
+}
+
+
+/* code from https://code-boxx.com/html-css-news-ticker-horizontal-vertical/ */
+
+/* OUTER CONTAINER */
+.tcontainer {
+  width: 90%;
+  box-sizing:border-box;
+  border: 2px;
+  overflow: hidden; /* Hide scroll bar */
+}
+
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 102.5%; /* Push contents to right side of screen */
+  background-color: #EEE
+}
+
+/* INNER CONTAINER */
+@keyframes ticker {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-105%, 0, 0); }
+}
+.ticker-move {
+  /* Basically move items from right side of screen to left in infinite loop */
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 15s;
+}
+.ticker-move:hover{
+  /*animation-play-state: paused; */
+}
+
+/* ITEMS */
+.ticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+}
