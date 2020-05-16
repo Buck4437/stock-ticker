@@ -35,6 +35,21 @@ function generate(){
       document.getElementById("price"+i).innerHTML = price
   }
 }
-
-loop = setInterval(generate, 15000)
 generate()
+
+$(function () {
+  $('.marquee').marquee({
+      duration: 10000,
+      //gap in pixels between the tickers
+      gap: 50,
+      //time in milliseconds before the marquee will start animating
+      delayBeforeStart: 500,
+      //'left' or 'right'
+      direction: 'left',
+      //true or false - should the marquee be duplicated to show an effect of continues flow
+      duplicated: false
+
+  }).bind('finished', function(){
+	  generate()
+	})
+})

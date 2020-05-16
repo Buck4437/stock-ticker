@@ -3,22 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Stock Ticker</title>
-    <link rel="stylesheet" type="text/css" href="ticker.css">
   </head>
   <body>
-    <div class="tcontainer">
-      <div class="ticker-wrap">
-        <div class="ticker-move">
-          <div class="ticker-item">
-            <span class="company" id="company1"></span>
-            <span id="price1"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
-            <span class="company" id="company2"></span>
-            <span id="price2"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
-            <span class="company" id="company3"></span>
-            <span id="price3"></span>
-          </div>
-        </div>
-      </div>
+    <div class='marquee'>
+      <span class="company" id="company1"></span>
+      <span id="price1"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <span class="company" id="company2"></span>
+      <span id="price2"></span>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <span class="company" id="company3"></span>
+      <span id="price3"></span>
     </div>
     <br>
     <a href="https://github.com/Buck4437/stock-ticker">Check the code here</a>
@@ -27,7 +20,19 @@
     .company{
       color:blue
     }
+
+    *{
+      font-size: 25px
+    }
+
+    /* code from https://github.com/aamirafridi/jQuery.Marquee */
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      border:2px solid black;
+    }
   </style>
-  <script src="js.js"></script>
   <script src="jquery-3.4.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js" type="text/javascript"></script>
+  <script src="js.js"></script>
 </html>
