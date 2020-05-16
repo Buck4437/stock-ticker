@@ -1,6 +1,5 @@
 var namelist = ["Antinology","Infinifection","Eternal Light","Galaxia","Duplicanti","Dimensional Explorer","Techyon","Realistic","Celestar","ERCGDM","NRG+","Looty Box","Symbolic","Minisofa","IDEAL","Appange","Goggles","Interval","Newstar","HeavyPellet","Marsa","Zoology","Photoric","Jacfoz","Orism","EDIK","Fision","Gamma","Fractiled","Imnesia","Fermic","The Automizers"]
 var price = 0
-var autogenerate = false
 //I am copying this from stackflow because i cannot code
 function shuffle(a) {
     var j, x, i;
@@ -36,15 +35,21 @@ function generate(){
       document.getElementById("price"+i).innerHTML = price
   }
 }
-function autogeneratenews(){
-  autogenerate = !autogenerate
-  if (autogenerate){
-    generate()
-    loop = setInterval(generate, 5000)
-    document.getElementById("somename").innerHTML = "Auto-Generate News: On"
-  }
-  else{
-    clearInterval(loop)
-    document.getElementById("somename").innerHTML = "Auto-Generate News: Off"
-  }
-}
+generate()
+
+$(function () {
+  $('.marquee').marquee({
+      duration: 10000,
+      //gap in pixels between the tickers
+      gap: 50,
+      //time in milliseconds before the marquee will start animating
+      delayBeforeStart: 500,
+      //'left' or 'right'
+      direction: 'left',
+      //true or false - should the marquee be duplicated to show an effect of continues flow
+      duplicated: false
+
+  }).bind('finished', function(){
+	  generate()
+	})
+})
