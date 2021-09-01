@@ -31,7 +31,7 @@ All of these companies are loosely related to the game itself, but not necessary
 - **Looty Box:** A reference to a news ticker in the game.
     > A preview of the next update - loot boxes! Feel a sense of pride and progression as you open cosmic, galactic, and universal lootboxes for chances at rare skins, unique challenges with uniquer rewards, time skips and even new dimensions!
 ### Contributors
-All of these companies reference contributors of the game. (Sorry to those who isn't included, we still love you ❤️)
+All of these companies reference contributors of the game. (Sorry to those who aren't included, we still love you ❤️)
 - **HeavyPellet:** A reference to Hevipelle, who created the game.
 - **Marsa:** A reference to earth. (Marsa -> Mars -> Earth)
 - **Zoology:** A reference to SpectralFlame, whose profile picture looks like a giraffe.
