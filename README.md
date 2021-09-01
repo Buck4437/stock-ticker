@@ -6,7 +6,8 @@ There are a number of companies in the stock ticker. They can be grouped into di
 ### Mechanics
 All of these companies are related to in-game mechanics.
 - **Antinology:** A portmanteau of "Antimatter" and "Technology".
-- **Infinifection:** A reference to Infinity. Also a reference to the arcade game Sound Volex II -Infinite Infection-.
+- **Infinifection:** A reference to Infinity. Also a reference to the arcade game "Sound Volex II -Infinite Infection-". Additionally a reference to a news message on mobile version:
+    > If the second installment of Sound Voltex is subtitled "Infinite Infection", why isn't the third installment subtitled "Eternity Wars"?
 - **Eternal Light:**  A reference to Eternity.
 - **Galaxia:** A reference to Galaxy.
 - **Duplicanti:** A portmanteau of "Replicanti" and "Duplicate".
